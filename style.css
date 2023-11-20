@@ -1,0 +1,58 @@
+.topnav {
+    background-color: rgb(245, 222, 234);
+    overflow: hidden;
+
+
+
+  }
+  .topnav a {
+    float: right;
+    color: rgb(245, 5, 169)255, 192, 228;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 30px;
+  }
+  .topnav a:hover {
+    background-color: blanchedalmond;
+    color: black;
+  }
+  .topnav a.active {
+    background-color: deepskyblue;
+    color: black;
+  }
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+  }
+.topnav #logo {
+    width: 10%;
+}
+  .introduction{
+    color: blueviolet;
+    text-align: center;
+    margin-top: 10%;
+    margin-right: 10%;
+  }
+
+#btn{
+font-size:150%;
+    margin-left:45% ;
+    min-width: 200px;
+    background-color: rgb(255, 192, 251);
+    
+}
+
+
+body {
+    margin: 0;
+    overflow: hidden;
+    background-size: cover;
+    transition: background 10s ease;
+}
