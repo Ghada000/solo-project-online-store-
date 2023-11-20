@@ -1,0 +1,42 @@
+body{
+    background-image: url(https://static9.depositphotos.com/1625039/1108/i/950/depositphotos_11088936-stock-photo-newborn-babies.jpgx);
+    background-size: 100%;
+    
+}
+
+.dropbtn {
+    background-color: rgb(222, 192, 255);
+    color: rgb(217, 0, 255);
+    padding: 100px;
+    font-size: 100px;
+    border: #ddd;
+  }
+  
+  .dropdown {
+
+   margin-bottom: 70%;
+    display: inline-block;
+  }
+  
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 500px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: 50px;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 50px 16px;
+    text-decoration: none;
+    display: block;
+  }
+    
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: rgb(192, 231, 255);}

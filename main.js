@@ -26,3 +26,15 @@ $(document).ready(function() {
     // Change background every 10seconds
     setInterval(changeBackground, 10000);
 });
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    // Get the button element by its ID
+    var navigateButton = document.getElementById("btn")
+
+    // Add a click event listener to the button
+    navigateButton.addEventListener('click', function () {
+      // Navigate to another HTML page (replace 'anotherPage.html' with the actual file name)
+      window.location.href = 'http://127.0.0.1:5500/pic/second%20page/index2.html#';
+    });
+  })
